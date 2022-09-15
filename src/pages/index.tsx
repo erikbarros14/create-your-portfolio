@@ -1,9 +1,18 @@
+import { HomeHero } from "../components/HomeHero";
+import { Header } from "../Header/";
+import {
+  HomeContainer,
+} from '../styles/Homestyles'
 
 
 export default function Home() {
   return (
-    <div>
+      <HomeContainer>
+        <Header/>
+         <main  className="container" >
+          <HomeHero/>
+         </main>
 
-    </div>
+      </HomeContainer>
   );
 }
