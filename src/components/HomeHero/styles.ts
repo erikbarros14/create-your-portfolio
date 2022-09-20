@@ -100,5 +100,28 @@ transition: 1s;
 &:hover {
   filter: brightness(1.2);
 }
+ &:last-child{
+ align-self: flex-end;
+ }
+  div{
+    margin: 0.2rem 0;
+    margin-left: 1rem;
+  }
+  span.purple {
+    color: #c38cdd;
+  }
+  span.blue{
+    color: #7ac7e3 ;
+  }
+  span.azul{
+    color: #7ac7e3 ;
+  }
+  span.comment{
+      color: ${({theme}) => theme.text };
+      margin-bottom:1rem ;
+      display: block;
+
+  }
 
 `
+

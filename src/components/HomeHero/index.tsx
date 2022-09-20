@@ -20,8 +20,13 @@ export function HomeHero (){
         <CodeItem>
           <span className='comment' >//minha apresentação</span>
           <span className='purple' >infos</span> {'\u007B'}
-          <div>nome :<span>Erik,</span> </div>
-          <div>sobre nome :<span>Barros,</span> </div> {'\u007D'}
+          <div>nome :<span className='blue' >Erik,</span> </div>
+          <div>sobre nome :<span className='azul' >Barros,</span> </div> {'\u007D'}
+        </CodeItem>
+        <CodeItem>
+          <span className='purple' >cargo</span> {'\u007B'}
+          <div>função :<span className='blue' >Dev: front-end,</span> </div>
+          <div>empresa :<span className='azul' >GOWDOCK</span> </div> {'\u007D'}
         </CodeItem>
       </InfosContainer>
       </div>
