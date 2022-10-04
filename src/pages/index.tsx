@@ -1,3 +1,4 @@
+import { Experiencia } from "../components/Experiencia";
 import { HomeHero } from "../components/HomeHero";
 import { Header } from "../Header/";
 import {
@@ -11,6 +12,7 @@ export default function Home() {
         <Header/>
          <main  className="container" >
           <HomeHero/>
+          <Experiencia/>
          </main>
 
       </HomeContainer>
