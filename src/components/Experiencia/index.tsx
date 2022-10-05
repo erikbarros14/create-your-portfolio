@@ -7,9 +7,28 @@ export function Experiencia () {
 
 return (
  <Container>
-  <Sectiontitle title="05 Anos" descripition="de experiencia" />
+  <Sectiontitle title="01 Ano " descripition="de experiencia" />
   <section>
-    <ExperienciaItem/>
+    <ExperienciaItem
+      yer="2020"
+      title="dev-front-end"
+      descripition=" lorem ipsum dolor sit amet , concectetur adispscing , elit . Aliquan "
+    />
+    <ExperienciaItem
+      yer="2021"
+      title="dev-front-end"
+      descripition=" lorem ipsum dolor sit amet , concectetur adispscing , elit . Aliquan "
+    />
+    <ExperienciaItem
+     yer="2021"
+     title="dev-front-end"
+     descripition=" lorem ipsum dolor sit amet , concectetur adispscing , elit . Aliquan "
+    />
+    <ExperienciaItem
+     yer="2022"
+     title="dev-front-end"
+     descripition=" lorem ipsum dolor sit amet , concectetur adispscing , elit . Aliquan "
+    />
   </section>
 
  </Container>

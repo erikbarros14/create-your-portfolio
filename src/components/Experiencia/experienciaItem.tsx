@@ -1,13 +1,19 @@
 import  {ItemContainer} from './styles'
 
-export function ExperienciaItem () {
+interface ExperienciaProps{
+  yer: string;
+  title: string;
+  descripition: string;
+}
+
+export function ExperienciaItem ( {yer, title , descripition}:ExperienciaProps ) {
 
 return (
   <ItemContainer>
     <div>
-      <h1>2021</h1>
-      <h2>Dev-font-end</h2>
-      <p> lorem ipsum dolor sit amet , concectetur adispscing , elit . Aliquan   </p>
+      <h1>{yer}</h1>
+      <h2>{title}</h2>
+      <p> {descripition}  </p>
     </div>
   </ItemContainer>
 )
