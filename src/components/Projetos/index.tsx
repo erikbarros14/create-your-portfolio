@@ -1,5 +1,6 @@
 
 import { Sectiontitle } from '../Sectiontitle';
+import { ProjetosItems } from './projetosItems';
 
 import { Container } from './styles';
 
@@ -13,7 +14,7 @@ export function Projetos() {
        <Sectiontitle title='ultimos projetos' />
 
         <section>
-
+            <ProjetosItems/>
         </section>
 
     </Container>

@@ -1,6 +1,7 @@
 
 import Link from 'next/link'
 import {ProjetoContainer} from './styles'
+import {AiOutlineRightCircle} from 'react-icons/ai'
 
 export function ProjetosItems () {
 
@@ -23,7 +24,7 @@ export function ProjetosItems () {
      <button type='button' >
       <Link href='/projetos' >
         <a>
-          Ver mas
+          Ver mas  <AiOutlineRightCircle/>
         </a>
       </Link>
      </button>
